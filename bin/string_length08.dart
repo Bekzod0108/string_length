@@ -7,10 +7,15 @@
     Returns:
         str: answer
 */
-bool func(String s){
-  ;
+String func(String s){
+  int a=s.length;
+  if (a%2==1){
+  return s[s.length~/2];
+  }
+  return s[s.length~/2-1]+s[s.length~/2];
+  
 
 }
 void main() {
-  print(func('Hello'));
+  print(func('Helo'));
 }

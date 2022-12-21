@@ -6,10 +6,8 @@
     Returns:
         bool: answer
 */
-int func(String s){
-  int a=s.length;
-  
-  return print(a.[0]);
+String func(String s){
+  return s[s.length~/10];
   }
 void main() {
   print(func('hello'));

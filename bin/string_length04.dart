@@ -6,9 +6,9 @@
     Returns:
         string
 */
-int func(String s){
+String func(String s){
   int a=s.length;
-  return a;
+  return '*'*a;
 }
 void main() {
   print(func('Hello'));

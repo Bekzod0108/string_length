@@ -7,6 +7,10 @@
     Returns:
         str: answer
 */
+bool func(String s){
+  return s.isEmpty;
+
+}
 void main() {
-  // write your code here
+  print(func('Hello'));
 }

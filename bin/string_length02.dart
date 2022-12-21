@@ -6,6 +6,13 @@
     Returns:
         True or False
      */
+    bool func(String text){
+      int a=text.length;
+      return a%2==0;
+
+     
+      
+     }
 void main() {
-  // write your code here
+print(func('Hello'));
 }

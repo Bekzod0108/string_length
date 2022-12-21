@@ -5,7 +5,11 @@
         a: string
     Returns:
         length of string */
-
-void main() {
-  // write your code here
+int  func(String text){
+  int a=text.length;
+  return a;
 }
+void main() {
+print(func('Hello'));
+}
+

@@ -7,6 +7,14 @@
     Returns:
         shortest string
 */
+int func(String s1, String s2){
+  int a=s1.length;
+  int b=s2.length;
+  if(a>=b){
+    return b;
+  }
+  return a;
+}
 void main() {
-  // write your code here
+print(func('Hello','Hi'));
 }

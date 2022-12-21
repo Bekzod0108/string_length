@@ -6,7 +6,11 @@
     Returns:
         bool: answer
 */
-
+int func(String s){
+  int a=s.length;
+  
+  return print(a.[0]);
+  }
 void main() {
-  // write your code here
+  print(func('Hello'));
 }

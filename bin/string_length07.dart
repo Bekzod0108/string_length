@@ -7,6 +7,15 @@
     Returns:
         string
 */
+int func(String s1, String s2){
+    int a=s1.length;
+    int b=s2.length;
+    if(a>b){
+        return a;
+    }
+    return b;
+
+}
 void main() {
-  // write your code here
+  print(func('Hello','Hi'));
 }

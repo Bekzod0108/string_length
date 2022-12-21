@@ -6,6 +6,10 @@
     Returns:
         string
 */
+int func(String s){
+  int a=s.length;
+  return a;
+}
 void main() {
-  // write your code here
+  print(func('Hello'));
 }

@@ -12,5 +12,5 @@ int func(String s){
   return print(a.[0]);
   }
 void main() {
-  print(func('Hello'));
+  print(func('hello'));
 }

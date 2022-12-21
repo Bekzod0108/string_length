@@ -8,7 +8,7 @@
         str: answer
 */
 bool func(String s){
-  return s.isEmpty;
+  ;
 
 }
 void main() {

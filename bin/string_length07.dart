@@ -10,7 +10,7 @@
 String func(String s1, String s2){
     int a=s1.length;
     int b=s2.length;
-    if(a>b){
+    if(a==b){
         return s1;
     }
     return s2;
